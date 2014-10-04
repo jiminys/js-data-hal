@@ -1,0 +1,35 @@
+{
+  "name": "js-data-hal",
+  "description": "Hal adapter for js-data.",
+  "version": "0.1.0",
+  "homepage": "http://www.js-data.io/js-data-hal",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/js-data/js-data-hal.git"
+  },
+  "author": {
+    "name": "Jason Dobry",
+    "url": "http://www.pseudobry.com",
+    "email": "jason.dobry@gmail.com"
+  },
+  "main": "./dist/js-data-hal.min.js",
+  "ignore": [
+    ".idea/",
+    ".*",
+    "*.iml",
+    "src/",
+    "lib/",
+    "doc/",
+    "guide/",
+    "coverage/",
+    "Gruntfile.js",
+    "node_modules/",
+    "test/",
+    "package.json",
+    "karma.conf.js",
+    "karma.start.js"
+  ],
+  "dependencies": {
+    "js-data": "~0.4.x"
+  }
+}
